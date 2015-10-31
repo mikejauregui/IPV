@@ -1,0 +1,344 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+@font-face {
+  font-family: novecentodemibold;
+  src: url(fonts/novecentodemibold.otf);
+}
+@font-face {
+  font-family: novecentowidebook;
+  src: url(fonts/novecentowidebook.otf);
+}
+@font-face {
+  font-family: novecentowidebold;
+  src: url(fonts/novecentowidebold.otf);
+}
+@font-face {
+  font-family: novecentowidelight;
+  src: url(fonts/novecentowidelight.otf);
+}
+@font-face {
+  font-family: novecentowidemedium;
+  src: url(fonts/novecentowidemedium.otf);
+}
+@font-face {
+  font-family: novecentowidenormal;
+  src: url(fonts/novecentowidenormal.otf);
+}
+#topnavbar {
+  background-color: white;
+  border-top: 3px solid;
+  padding: 0px;
+  heigth: 0px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+#navmenu {
+  width: 100%;
+  margin:auto;
+}
+.homeintro{
+  background-image: url(images/gabriel-intro.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+
+}
+
+#socialbar {
+  padding-top: 500px;
+}
+
+.socialtwitter {
+  float: center;
+  margin-left: 10px;
+
+}
+.socialfacebook {
+  float: center;
+  margin-left: 10px;
+
+}
+.socialyoutube {
+  float: center;
+  margin-left: 10px;
+}
+.socialinstagram {
+  float: center;
+  margin-left: 10px;
+}
+a.socialicons:hover {
+opacity: .8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.body1 {
+  background-color: #eaeaea;
+  border-top: 3px solid #464646;
+  height:auto;
+  width: auto;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+
+}
+.vision1 {
+  display:inline-block;
+  padding-top: 50px;
+  font-size: 30px;
+  font-family: novecentodemibold;
+  width: auto;
+  margin: auto;
+  color: #464646;
+}
+.textbody1 {
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 25px;
+  font-family: novecentowidelight;
+  width: auto;
+  margin:auto;
+  color: #464646;
+}
+.button1 {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+}
+a.button1:hover {
+opacity: .8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.container1 {
+  max-width: 960px;
+  margin:auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.body2{
+  background-image: url(images/alabanza2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid #464646;
+  text-align: center;
+
+}
+.textbody2 {
+  display: inline-block;
+  padding: auto;
+  font-size: 25px;
+  font-family: novecentowidelight;
+  width: auto;
+  color: white;
+  text-align: center;
+}
+.devocion {
+  display:inline-block;
+  padding-top: 300px;
+  font-size: 30px;
+  font-family: novecentodemibold;
+  width: auto;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+iframe {
+  display:inline-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.videowrapper {
+  position: relative;
+  padding-bottom: 56.45%;
+  height: 0;
+  z-index: 0;
+}
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.body4 {
+  background-image: url(images/nfq2.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid #464646;
+  text-align: center;
+
+}
+ul.rig {
+list-style: none;
+font-size: 0px;
+padding-top: 20px;
+}
+ul.rig li {
+display: inline-block;
+padding: 10px;
+background: #fff;
+border: 1px solid #ddd;
+font-size: 16px;
+font-size: 1rem;
+vertical-align: top;
+box-shadow: 0 0 5px #ddd;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+ul.rig li h3 {
+  margin: 0 0 5px;
+}
+ul.rig li p {
+  font-size: .9em;
+  line-height: 1.5em;
+  color: #999;
+}
+
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-shadow: 0 0 5px #ddd;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+ul.rig.columns-3 li {
+  width: 30.83%; /* this value + 2.5 should = 33% */
+}
+
+h3 {
+  font-size: 20px;
+  font-family: novecentowidelight;
+}
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background-color:transparent;
+  -moz-border-radius:0px;
+  -webkit-border-radius:6px;
+  border-radius:0px;
+  border:2px solid #464646;
+  display:inline-block;
+  cursor:pointer;
+  color:#464646;
+  font-family:novecentowidelight;
+  font-size:25px;
+  font-weight:bold;
+  padding:6px 24px 10px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+  background-color:transparent;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.nav-menu {
+  color:black;
+}
+#map {
+       width: auto;
+       height: 400px;
+     }
+.body3 {
+  background-image: url(images/gracia4.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 3px solid #464646;
+  text-align: center;
+}
+.footer {
+  background-color: #232323;
+  width: 100%;
+}
+#mapnew {
+  width: 100%;
+}
+.footer-text {
+  display: inline-block;
+  padding: auto;
+  font-size: 15px;
+  font-family: novecentowidelight;
+  width: auto;
+  color: white;
+  text-align: center;
+}
+.textbody4 {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  font-size: 25px;
+  font-family: novecentowidelight;
+  width: auto;
+  margin:auto;
+  color: #464646;
+}
+  .body5 {
+    background-image: url(images/relevantes2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #464646;
+    text-align: center;
+  }
+
+  .relevantes {
+    display:inline-block;
+    padding-top: 200px;
+    font-size: 30px;
+    font-family: novecentodemibold;
+    width: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
