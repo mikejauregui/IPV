@@ -342,3 +342,27 @@ h3 {
     color: white;
     text-align: center;
   }
+  .videointro{
+    background-image: url(images/video-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid #464646;
+    text-align: center;
+
+  }
+  .videointrotext {
+    display:inline-block;
+    padding-top: 180px;
+    font-size: 35px;
+    font-family: novecentodemibold;
+    width: auto;
+    margin: auto;
+    color: white;
+    text-align: center;
+  }
