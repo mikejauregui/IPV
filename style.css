@@ -128,7 +128,7 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 500px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -147,7 +147,7 @@ filter:alpha(opacity=80); /* For IE8 and earlier */
 }
 .devocion {
   display:inline-block;
-  padding-top: 300px;
+  padding-top: 150px;
   font-size: 30px;
   font-family: novecentodemibold;
   width: auto;
@@ -179,7 +179,7 @@ iframe {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 500px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -285,7 +285,7 @@ h3 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 500px;
   width: auto;
   margin-left: auto;
   margin-right: auto;
@@ -324,7 +324,7 @@ h3 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 500px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
